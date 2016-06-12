@@ -1,0 +1,76 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/grnd">
+
+		<TextView
+			android:id="@+id/main2"
+			android:textSize="25sp"
+			android:layout_width="120dp"
+			android:layout_height="60dp"
+			android:text="Set Reminder">
+		</TextView>
+	
+	<TextView
+		android:layout_width="120dp"
+		android:layout_height="60dp">
+	</TextView>
+	
+		
+		<TableRow>
+			<TextView
+				android:layout_width="120dp"
+				android:layout_height="60dp">
+			</TextView>
+		</TableRow>
+		<TableRow>
+		<TextView
+			android:id="@+id/txt1"
+			android:text="Reminder"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"/>
+		<EditText
+			android:id="@+id/name"
+			android:layout_width="150dp" />
+	</TableRow>
+	<TableRow>
+		<TextView
+			android:id="@+id/ph"
+			android:text="Phone Number"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"/>
+		
+		
+		<EditText
+			android:id="@+id/email"
+			android:layout_width="150dp" />
+		<SearchView
+			android:id="@+id/searchView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true" >
+		</SearchView>
+		
+		
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:layout_width="120dp"
+			android:layout_height="40dp">
+		</TextView>
+	</TableRow>
+	
+	<TableRow>
+		<Button
+			android:id="@+id/btn"
+			android:text="Submit"
+			android:onClick="onClick"
+			android:gravity="center"/>
+	</TableRow>
+</TableLayout>
+		
+
